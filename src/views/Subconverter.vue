@@ -210,7 +210,31 @@ export default {
           ClashR: "clashr",
           Surge2: "surge&ver=2",
         },
-        backendOptions: [{ value: "https://gigasnow.synology.me:25503/sub?" }],
+        backendOptions: [              {
+                label: "Z.Mao自建",
+                value:
+                  "https://gigasnow.synology.me:25503/sub?"
+              },
+              {
+                label: "sub.id9.cc 品云",
+                value:
+                  "https://sub.id9.cc/sub?"
+              },
+              {
+                label: "sub.xeton.dev 项目作者自建",
+                value:
+                  "https://sub.xeton.dev/sub?"
+              },
+             {
+                label: "dler 机场",
+                value:
+                  "https://api.dler.io/sub?"
+              }，
+              {
+                label: "sub.maoxiongnet.com 猫熊",
+                value:
+                  "https://sub.maoxiongnet.com/sub?"
+              }],
         remoteConfig: [
           {
             label: "universal",
@@ -221,7 +245,7 @@ export default {
                   "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/universal/no-urltest.ini"
               },
               {
-                label: "ZM",
+                label: "Z.Mao故障转移 + full Apple list",
                 value:
                   "https://gigasnow.synology.me:5003/data/ZMcustomized.ini"
               }
