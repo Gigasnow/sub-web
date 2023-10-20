@@ -229,7 +229,7 @@ export default {
                 label: "dler 机场",
                 value:
                   "https://api.dler.io/sub?"
-              }，
+              },
               {
                 label: "sub.maoxiongnet.com 猫熊",
                 value:
