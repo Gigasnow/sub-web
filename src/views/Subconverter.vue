@@ -210,7 +210,7 @@ export default {
           ClashR: "clashr",
           Surge2: "surge&ver=2",
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
+        backendOptions: [{ value: "https://gigasnow.synology.me:25503/sub?" }],
         remoteConfig: [
           {
             label: "universal",
@@ -221,9 +221,9 @@ export default {
                   "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/universal/no-urltest.ini"
               },
               {
-                label: "Urltest",
+                label: "ZM",
                 value:
-                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/universal/urltest.ini"
+                  "https://gigasnow.synology.me:5003/data/ZMcustomized.ini"
               }
             ]
           },
